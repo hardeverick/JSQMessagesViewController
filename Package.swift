@@ -25,7 +25,10 @@ let package = Package(
             .headerSearchPath("JSQMessagesViewController"),
             .headerSearchPath("JSQMessagesViewController/Views"),
             .headerSearchPath("JSQMessagesViewController/Factories"),
-            .headerSearchPath("JSQMessagesViewController/Categories")
+            .headerSearchPath("JSQMessagesViewController/Categories"),
+            .headerSearchPath("JSQMessagesViewController/Controllers"),
+            .headerSearchPath("JSQMessagesViewController/Layout"),
+            .headerSearchPath("JSQMessagesViewController/Model")
                                                                                                  ]),
     ],
     swiftLanguageVersions: [.version("5")]
